@@ -1,0 +1,33 @@
+.header__container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+}
+.img__logo{
+    width:2rem;
+    height: 2rem;
+}
+.logo__grp{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+}
+.logo__grp span{
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--main-color);
+}
+
+.menu__item{
+    cursor: pointer;
+
+}

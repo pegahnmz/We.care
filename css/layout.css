@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-family: 'Radio Canada';
+}
+:root{
+    /* colors */
+    --main-color:rgb(0, 0, 135);
+    --sub-color:grey;
+    --primary-blue:blue;
+
+    /* font size */
+    --font-size-sm:1rem;
+    --font-size-md:1rem;
+    --font-size-lg:1rem;
+    --font-size-xl:1rem;
+    --font-size-xxl:1rem;
+
+    /* font wight */
+    --font-weight-lighter:100;
+    --font-weight-light:500;
+    --font-weight-bold:700;
+    --font-weight-bolder:900;
+
+}
+/* text classes */
+.hero-text{
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-bolder);
+    color: var(--main-color);
+}
+.section-title{
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--main-color);
+}
+.sub-text-sm{
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-lighter);
+    color: var(--main-color);
+}
+.sub-text-sm-grey{
+    font-size: var(--font-size-sm);
+    font-weight: var(--font-weight-lighter);  
+    color: var(--sub-color);
+}
+.sub-text-section{
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-light);
+    color: var(--main-color);
+}
+.sub-text-section-grey{
+    font-size: var(--font-size-md);
+    font-weight: var(--font-weight-light);
+    color: var(--sub-color);
+}
+html {
+    
+}
+
+/* buttons */
+
+button{
+    border: none;
+}
+.btn{
+    border-radius: 0.45rem;
+    padding: 0.5rem 1rem;
+    font-size:var(--font-size-sm);
+    cursor: pointer;
+    transition-property: "color","background";
+    transition: 0.3s ease-in-out;
+}
+.primary-btn{
+    color: snow;
+    background-color: var(--primary-blue);
+}
+
+.transparent-btn{
+    background-color: transparent;
+}
+.transparent-btn:hover,.primary-btn:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 179);
+    box-shadow: 1px 1px 5px 0 rgba(0, 0, 135, 0.589);
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}

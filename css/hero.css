@@ -1,0 +1,36 @@
+.hero__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+}
+.hero__left{
+
+}
+.hero__card{
+
+}
+.hero__right img{
+    height: 30rem;
+}
+.hero__card_grp{
+    display: flex;
+    gap: 0.2rem;
+}
+.hero__card{
+    background-color: var(--main-color);
+    color: snow;
+    padding: 0.8rem;
+    border-radius: 0.3rem;
+}
+/* .iii{
+    background-image: url("./../Assets/medical-symbol.png");
+    width: 5rem;
+    height: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+} */
