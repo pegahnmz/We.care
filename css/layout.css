@@ -20,13 +20,13 @@
     --font-size-sm:0.85rem;
     --font-size-md:1rem;
     --font-size-lg:1rem;
-    --font-size-xl:1rem;
+    --font-size-xl:2.5rem;
     --font-size-xxl:3rem;
 
     /* font wight */
     --font-weight-lighter:100;
     --font-weight-light:500;
-    --font-weight-bold:700;
+    --font-weight-bold:800;
     --font-weight-bolder:1000;
 
 }

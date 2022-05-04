@@ -1,0 +1,58 @@
+.fd-container{
+    margin: 7rem 0;
+}
+.fd__left{
+    width: 32%;
+}
+.fd__left > .sub-text-section-grey{
+    margin: 2rem 0;
+}
+.fs__menu-item{
+    width: 85%;
+}
+.fs__menu-line{
+    width: fit-content;
+    transform: rotate(90deg);
+   margin: 1.8rem 0;
+   color: rgba(128, 128, 128, 0.226);
+}
+.fs__menu-line::before{
+    content: " ______ ";
+    
+}
+.fd__menu-title{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.fs__menu-sub{
+    display: flex;
+}
+.fs__menu-sub > p{
+    
+}
+.fs__menu-icon{
+    width: fit-content;
+    background-color: rgba(0, 0, 255, 0.134);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.fs__menu-icon1{
+    background-color: rgba(137, 43, 226, 0.127);
+}
+.fs__menu-icon1::before{
+    color: blueviolet;
+}
+.fs__menu-icon2{
+    background-color: rgba(13, 0, 255, 0.104);
+}
+.fs__menu-icon2::before{
+    color: rgb(102, 0, 255);
+}
+.fs__menu-icon3{
+    background-color: rgba(172, 255, 47, 0.205);
+}
+.fs__menu-icon3::before{
+    color: rgb(36, 212, 68);
+}
+    
