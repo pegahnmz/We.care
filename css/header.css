@@ -1,6 +1,9 @@
 .header__container{
     background-color: transparent;
+    position: fixed;
     display: flex;
+    right: 0;
+    left: 0;
     flex-direction: row;
     justify-content: space-around;
     padding: 2rem 0;

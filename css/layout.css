@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@700&display=swap');
 
 *,
 *::after,
@@ -17,23 +17,24 @@
     --primary-blue:blue;
 
     /* font size */
-    --font-size-sm:1rem;
+    --font-size-sm:0.85rem;
     --font-size-md:1rem;
     --font-size-lg:1rem;
     --font-size-xl:1rem;
-    --font-size-xxl:1rem;
+    --font-size-xxl:3rem;
 
     /* font wight */
     --font-weight-lighter:100;
     --font-weight-light:500;
     --font-weight-bold:700;
-    --font-weight-bolder:900;
+    --font-weight-bolder:1000;
 
 }
 /* text classes */
 .hero-text{
     font-size: var(--font-size-xxl);
     font-weight: var(--font-weight-bolder);
+    line-height: 4rem;
     color: var(--main-color);
 }
 .section-title{
@@ -48,7 +49,8 @@
 }
 .sub-text-sm-grey{
     font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-lighter);  
+    font-weight: var(--font-weight-lighter);
+    line-height: 1.6rem;
     color: var(--sub-color);
 }
 .sub-text-section{
@@ -96,4 +98,17 @@ a{
 }
 ul{
     list-style: none;
+}
+
+input{
+    list-style: none;
+    border: none;
+    outline: none;
+}
+i::before{
+    -webkit-text-stroke: 0.05rem;
+    color: var(--main-color);
+}
+.container{
+    padding: 0 3rem;
 }

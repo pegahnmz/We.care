@@ -14,10 +14,15 @@
       referrerpolicy="no-referrer"
     />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+
     <!-- <link rel="stylesheet" href="./css/index.css"> -->
     <link rel="stylesheet" href="./css/layout.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/popular-search.css">
+    <link rel="stylesheet" href="./css/find-doctor.css">
+    <link rel="stylesheet" href="./css/footer.css">
     <link rel="shortcut icon" href="./Assets/medical-logo.png" type="image/x-icon">
 </head>
 <body>
@@ -44,26 +49,68 @@
     <main>
         <section>
             <div class="container hero__container">
-                <!-- <div  class="iii">l</div> -->
-                <!-- <img src="./Assets/pills.png" alt="" class="iii"> -->
+                 <img src="./Assets/pills.png" alt="" class="hero__icons">
+                 <img src="./Assets/medical-symbol.png" alt="" class="hero__icons">
+                 <img src="./Assets/medical-logo2.png" alt="" class="hero__icons">
+                 <img src="./Assets/vaccine.png" alt="" class="hero__icons">
                 <div class="hero__left">
-                    <h1>Feel better about finding healthcare</h1>
-                    <p>At Healthgrades, we take the guesswork out of
+                    <h1 class="hero-text">Feel better about finding healthcare</h1>
+                    <p class="sub-text-sm-grey">At Healthgrades, we take the guesswork out of
                         finding the right doctors,hospitals,and 
                         care for you and your family
                     </p>
                     <div class="hero__card_grp">
                         <div class="hero__card">
-                            <p>Profiles for Every Doctors in America</p>
+                            <img src="./Assets/dr-icon.png" alt="" class="hero__card-icon">
+                            <p> Profiles for Every Doctors in America</p>
                         </div>
                         <div class="hero__card">
-                            <p>More Than 10 Million Patient Ratings</p>
+                            <img src="./Assets/like.png" alt="" class="hero__card-icon">
+                            <p> More Than 10 Million Patient Ratings</p>
                         </div>                        
                     </div>
 
                 </div>
                 <div class="hero__right">
-                    <img src="./Assets/hero-person.png" alt="">
+                    <img src="./Assets/hero-img1.png" alt="">
+                </div>
+                <div class="hero_search_container">
+                    <div class="hero__search">
+                        <div class="hero__search-top">
+                            <div class="input-grp">
+                                <i class="bi-search"></i>
+                                <input type="text" placeholder="Search Doctor,Conditions or Prodecures">
+                            </div>
+                            <div class="input-grp">
+                                <i class="bi-geo-alt"></i>
+                                <input type="text" placeholder="Set your location">
+                            </div>
+                            <button class="btn primary-btn"><i class="bi-search"></i></button>
+                        </div>
+                        <p class="sub-text-section">You may looking for</p>
+                        <div class="hero__search-bottom">
+                            <p class="suggest-items">Family Medicine  <i class="bi-x"></i></p>
+                            <p class="suggest-items">Pediatrics <i class="bi-x"></i></p>
+                            <p class="suggest-items">Top Hospital <i class="bi-x"></i></p>
+                            <p class="suggest-items">Telehealth <i class="bi-x"></i></p>
+                            <p class="suggest-items">COVID-19 <i class="bi-x"></i></p>
+                            <p class="suggest-items">Orthopedic Surgery <i class="bi-x"></i></p>
+                            <button class="btn suggest-items">More</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section>
+            <div class="container ps">
+                <p class="">Popular Search on We.care</p>
+                <div class="ps__main">
+                    <div class="ps__left">
+                        <p>Specialties</p>
+                        <p>Conditions</p>
+                        <p>Procedures</p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -82,12 +129,51 @@
         <section>
             <div class="container"></div>
         </section>
-        <section>
-            <div class="container"></div>
-        </section>
     </main>
     <footer>
-        <div class="container"></div>
+        <div class="container footer-container">
+            <div class="footer__col">
+                <div class="logo__grp">
+                    <img src="./Assets/medical-logo.png" alt="logo" class="img__logo">
+                    <span>We.care</span> 
+                 </div>
+                 <div class="icons-grp">
+                     <a href=""><i class="bi-facebook"></i></a>
+                     <a href=""><i class="bi-linkedin"></i></a>
+                     <a href=""><i class="bi-skype"></i></a>
+                     <a href=""><i class="bi-twitter"></i></a>
+                     <a href=""><i class="bi-youtube"></i></a>
+                 </div>
+            </div>
+            <div class="footer__col">
+                <p class="col__title">For Patients</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+            </div>
+            <div class="footer__col">
+                <p class="col__title">For Patients</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+            </div>
+            <div class="footer__col">
+                <p class="col__title">For Patients</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+            </div>
+            <div class="footer__col">
+                <p class="col__title">For Patients</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+                <p class="col__item">Accounts login/sign out</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
