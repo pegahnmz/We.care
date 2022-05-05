@@ -1,5 +1,8 @@
 .fd-container{
     margin: 7rem 0;
+    display: flex;
+    justify-content: space-around;
+     
 }
 .fd__left{
     width: 32%;
@@ -55,4 +58,56 @@
 .fs__menu-icon3::before{
     color: rgb(36, 212, 68);
 }
+ .fd__right{
+     position: relative;
+ }   
+.fd__box{
+    position: absolute;
+    top: 9rem;
+    left: -8rem;
+    background-color: white;
+    width: 11rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.159);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.fd__box > p{
+    margin-bottom: 0.5rem;
+}
+.fd__inp{
+    position: relative;
+}
+.fd__inp > input{
+    background-color: rgba(0, 0, 255, 0.023);
+    padding: 0.6rem 0;
+    padding-left: 1.9rem;
+    border: 2px solid rgba(179, 176, 176, 0.563);
+    border-radius: 0.4rem;
+    width: 8.5rem;
+    width: 100%;
     
+}
+.fd__inp-icon{
+    position: absolute;
+    top: 0.6rem;
+    left: 0.5rem;
+}
+.fd__btn-grp > button{
+    width: 100%;
+}
+.fd__btn-grp >button> i::before{
+    color: snow !important;
+    margin-right: 0.2rem;
+}
+.fd__btn-grp >button{
+    text-align: start;
+    padding-left:0.8rem ;
+    background-color: var(--primary-blue);
+    color: snow;
+    padding: 0.6rem ;
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
