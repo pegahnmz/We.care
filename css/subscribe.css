@@ -1,8 +1,11 @@
 .subscribe{
     display: flex;
     justify-content: center;
+    position: relative;
 }
 .subscribe__container{
+    position: absolute;
+    top: -8rem;
     background-color: blue;
     width: fit-content;
     padding: 2.5rem 8rem;
