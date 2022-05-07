@@ -1,5 +1,6 @@
 .ps{
-     
+     margin-top: 12rem;
+     padding: 2rem 7rem;
 }
 .ps__main{
     margin-top: 3.5rem;
@@ -20,8 +21,43 @@
     border-radius: 0.8rem;
     width: 13%;
     border: 3px solid transparent;
-    transition-delay: "background-color","border-color";
-    transition: 0.4s ease-in-out;
+    transition-property: "background-color","border-color";
+    transition-delay: 0.4s;
+    
+}
+.swiper-wrapper{
+     
+}
+.op0{
+   transition: 2s;
+    opacity: 0;
+}
+.ps__case{
+    cursor: pointer;
+    transition: color 0.4s ease-in-out;
+}
+.ps__case:hover{
+    color: rgb(71, 71, 71);
+}
+.ps__case-active{
+    color: var(--main-color);
+}
+ .ps__case-active:hover{
+    color: var(--main-color) !important;
+}
+.swiper{
+    
+    margin: 0 1rem;
+    padding: 0 1rem;
+    margin-bottom: -2rem;
+}
+.wrapper-text{
+    margin-top: 1.5rem;
+    padding:0 2rem ;
+     height: 8rem;
+}
+.ps__right{
+    width: fit-content;
 }
 .ps__items:hover{
 background-color: rgba(208, 208, 238, 0.236);
@@ -29,12 +65,13 @@ border-color:rgb(208, 208, 238) ;
 cursor: pointer;
 }
 .ps__left{
+
     border-right: 3px solid var(--main-color);
-    padding: 0 1rem;
+    padding: 0rem 1rem;
     
 }
 .ps__left p{
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 .ps__items img{
     width: 2.5rem;

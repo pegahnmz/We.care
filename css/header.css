@@ -1,12 +1,28 @@
 .header__container{
     background-color: transparent;
+    transition: 0.5s;
     position: fixed;
     display: flex;
+   
+    flex-direction: row;
+    align-items: center;
+    
+    justify-content:center;
+    padding: 2rem 2rem;
+     
+    z-index: 100;
+    gap: 30rem;
+   width:100%;
     right: 0;
     left: 0;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 2rem 0;
+    margin: 0.2rem auto;
+     
+}
+.sticky{
+    
+    background-color: rgb(236, 236, 246);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.054);
 }
 .menu__list{
     display: flex;
@@ -32,5 +48,22 @@
 
 .menu__item{
     cursor: pointer;
+    
+    
 
+}
+.menu__link{
+    transition-property: "color","box-shadow";
+    transition: color 0.3s ease-in-out;
+    border: 1px solid transparent;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+.menu__item:hover{
+     
+}
+.menu__link:hover{
+    color: rgba(0, 0, 255, 0.516);
+    
+    box-shadow: 1px 1px 5px 0 rgba(31, 1, 255, 0.082);
 }

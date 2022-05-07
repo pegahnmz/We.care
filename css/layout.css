@@ -64,9 +64,8 @@
     color: var(--sub-color);
 }
 html {
-    
+    scroll-behavior: smooth;
 }
-
 /* buttons */
 
 button{
@@ -93,6 +92,7 @@ button{
     color: rgb(0, 0, 179);
     box-shadow: 1px 1px 5px 0 rgba(0, 0, 135, 0.589);
 }
+
 a{
     text-decoration: none;
 }

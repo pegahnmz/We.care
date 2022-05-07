@@ -50,4 +50,9 @@
 }
 .col__item{
     
+    transition: color 0.3s ease-in-out;
+}
+.col__item:hover{
+    color: var(--main-color);
+    cursor: pointer;
 }
