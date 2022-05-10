@@ -20,10 +20,11 @@
 
 }
 .specialist__box > img{
-    width: 12rem;
+    width: 13rem;
     height: 12rem;
     background-color: rgb(236, 233, 233);
-    padding: 0 1rem;
+    padding: 0 3rem;
+    padding-top: 1rem;
     border-radius: 0.3rem;
     margin-bottom: 1.5rem;
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.2);
@@ -34,9 +35,10 @@
     justify-content: center;
     align-items: center;
     width: fit-content;
+    
     box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.14);
-    padding: 1rem ;
-    border-radius: 0.4rem;
+    padding: 1.5rem ;
+    border-radius: 0.5rem;
     transition-property: "box-shadow","transform";
     transition:  0.3s ease-in-out;
     transform: scale(1);
