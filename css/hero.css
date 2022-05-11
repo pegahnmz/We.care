@@ -25,7 +25,7 @@ width: 30rem;
 
 }
 .hero__right img{
-    height: 33.5rem;
+    height: 33.3rem;
     z-index: 5;
     position: relative;
     
@@ -283,25 +283,27 @@ width: 30rem;
 @media screen and (max-width:1160px){
     .hero__container{
         padding: 11rem 2rem;
+        flex-direction: column;
         
     }
     .hero__left{
-        background-color: rgba(174, 175, 200, 0.645);
+        /* background-color: rgba(174, 175, 200, 0.645); */
         z-index: 10;
         width: 80%;
         padding: 2rem;
         border-radius: 0.5rem;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        padding-bottom: 15rem;
         align-items: center;
         text-align: center;
         
     }
     .hero__right{
-        position: absolute;
+         position: absolute;
+         bottom: -5rem;
     }
     .hero__right > img{
-        visibility: hidden;
+         
     }
 }

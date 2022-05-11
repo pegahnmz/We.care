@@ -1,5 +1,6 @@
-var swiper = new Swiper('.swiper', {
-  // Optional parameters
+
+var swiper1 = new Swiper('#swiper', {
+ // Optional parameters
   direction: 'horizontal',
   loop: true,
   slidesPerView: 5,
@@ -27,32 +28,26 @@ on:{
   
 });
 
-var swiper = new Swiper('.swip', {
+
+const swiper2 = new Swiper('.swiper1', {
   // Optional parameters
   direction: 'horizontal',
   loop: true,
+  
   slidesPerView: 1,
   effect:"slide",
-  autoplay:{
-      delay:2000,
-      disableOnIntraction:false,
-
+  // If we need pagination
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true,
   },
-  
- 
-spaceBetween:0,
-  
-  
-on:{
-    init(){
-        this.el.addEventListener("mouseenter", () =>{
-            this.autoplay.stop();
-        });
-        this.el.addEventListener("mouseleave", () =>{
-          this.autoplay.start();
-      })
-    }
-}
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  }
+
   
 });
 
@@ -134,12 +129,3 @@ function showslide(ev){
 }
 
 
-const fd =  document.querySelector("#fd")
-fd.addEventListener("scroll", function () { 
-  console.log("lpp")
- })
-window.addEventListener("scroll", function(){
-    console.log("hi",window.scrollY == 10)
-  //  fd.classList.toggle("sticky", window.scrollY > 0)
-  //  header.classList.toggle("header-onscroll", window.scrollY > 0)
-})
