@@ -10,12 +10,15 @@
     text-align: center;
 }
 .specialist__main{
-    width: fit-content;
+    width: 100%;
+    padding: 0 3rem;
     display: grid;
     position: relative;
     margin: 3rem auto;
-    grid-template-columns: repeat(4,auto);
-    grid-template-rows: repeat(2,auto);
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill,15rem);
+    
     gap: 2.5rem;
 
 }
